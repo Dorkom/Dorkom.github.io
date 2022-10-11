@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Alert from './Alert'
+import ProductCard from './ProductCard'
 
 const Home = () => {
 
@@ -24,10 +26,20 @@ return (
     <Container>
         <Row xs="auto">
             <Col>
+                <Alert />
+            </Col>
+        </Row>
+        <Row xs="auto">
+            <Col>
             <h3>
                 Disponible hoy!
             </h3>
             </Col>
+        </Row>
+        <Row>
+            <ProductCard {...data[0]}/>
+            <ProductCard title={data[1].title} srcimg={data[1].srcimg} text={data[1].text}/>
+            <ProductCard {...data[2]}/>
         </Row>
     </Container>
 )
