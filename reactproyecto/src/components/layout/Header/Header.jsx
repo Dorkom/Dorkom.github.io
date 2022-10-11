@@ -38,7 +38,7 @@ return (
                         className="me-2"
                         aria-label="Search"
                     />
-                    {/* <Button variant="outline-sucess"><img src="img/user.png" alt="theuser" onClick={this.myfunction} /></Button> */}
+                    <Button variant="outline-sucess">User</Button>
                     <Button variant="outline-sucess">Carrito</Button>
                 </Form>
                 </Nav>
