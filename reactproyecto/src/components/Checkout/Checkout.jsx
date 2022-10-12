@@ -43,7 +43,7 @@ return (
             <Col>Keyboard & mouse bundle</Col>
             <Col>$39</Col>
             <Col>
-                <img src="./img/trash-can.png" height="60px"/>
+                <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '}
             </Col>
         </Row>
         <Row>
@@ -53,7 +53,7 @@ return (
             <Col>Intel Core I7-12700F 12-Core</Col>
             <Col>$359</Col>
             <Col>
-                <img src="./img/trash-can.png" height="60px"/>
+                <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '}
             </Col>
         </Row>
         <Row>
@@ -63,7 +63,7 @@ return (
             <Col>Keyboard & mouse bundle</Col>
             <Col>$39</Col>
             <Col>
-                <img src="./img/trash-can.png" height="60px"/>
+                <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '}
             </Col>
         </Row>
         <Row>
@@ -73,7 +73,7 @@ return (
             <Col>Intel Core I7-12700F 12-Core</Col>
             <Col>$359</Col>
             <Col>
-                <img src="./img/trash-can.png" height="60px"/>
+                <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '}
             </Col>
         </Row>
         <Row>
@@ -83,7 +83,7 @@ return (
             <Col>Keyboard & mouse bundle</Col>
             <Col>$39</Col>
             <Col>
-                <img src="./img/trash-can.png" height="60px"/>
+                <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '}
             </Col>
         </Row>
     </Container>
