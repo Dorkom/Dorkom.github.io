@@ -46,6 +46,46 @@ return (
                 <img src="./img/trash-can.png" height="60px"/>
             </Col>
         </Row>
+        <Row>
+            <Col>
+                <img src="./img/intel1.png" height="100px"/>
+            </Col>
+            <Col>Intel Core I7-12700F 12-Core</Col>
+            <Col>$359</Col>
+            <Col>
+                <img src="./img/trash-can.png" height="60px"/>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+                <img src="./img/keyboard1.png" height="100px"/>
+            </Col>
+            <Col>Keyboard & mouse bundle</Col>
+            <Col>$39</Col>
+            <Col>
+                <img src="./img/trash-can.png" height="60px"/>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+                <img src="./img/intel1.png" height="100px"/>
+            </Col>
+            <Col>Intel Core I7-12700F 12-Core</Col>
+            <Col>$359</Col>
+            <Col>
+                <img src="./img/trash-can.png" height="60px"/>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+                <img src="./img/keyboard1.png" height="100px"/>
+            </Col>
+            <Col>Keyboard & mouse bundle</Col>
+            <Col>$39</Col>
+            <Col>
+                <img src="./img/trash-can.png" height="60px"/>
+            </Col>
+        </Row>
     </Container>
 )
 }
