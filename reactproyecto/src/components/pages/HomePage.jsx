@@ -6,10 +6,8 @@ const HomePage = () => {
         <>
         <Layout
             main={<Home />}>
-                
-            </Layout>
+        </Layout>
         </>)
-
 }
 
 export default HomePage;
