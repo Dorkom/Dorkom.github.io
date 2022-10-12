@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 
 
-
+//esto es para usar typeahead
 import React, { useState } from 'react';
 import { Typeahead } from 'react-bootstrap-typeahead'; // ES2015
 // var Typeahead = require('react-bootstrap-typeahead').Typeahead;
