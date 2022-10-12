@@ -35,17 +35,17 @@ return (
             </Col >
             <Col xs={6} className="justify-content-md-right">
             <Nav
-                activeKey="/home"
+                activeKey="/"
                 onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
                 >
                 <Nav.Item>
-                    <Nav.Link href="/home">Home</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-1">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">Reviews</Nav.Link>
+                    <Nav.Link href="reviews">Reviews</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-3">Ranking</Nav.Link>
@@ -64,8 +64,9 @@ return (
                         className="me-2"
                         aria-label="Search"
                     /> */}
-                    <Button variant="outline-sucess">User</Button>
-                    <Button variant="outline-sucess">Carrito</Button>
+                    <Button variant="outline-sucess"><img src="./img/user.png" height="30px"/></Button>
+                    <Button variant="outline-sucess" href="checkout"><img src="./img/shopping-cart.png" height="30px"/></Button>
+                    {/* <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '} */}
                 </Form>
                 </Nav>
             </Col >
