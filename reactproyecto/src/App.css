@@ -167,6 +167,105 @@ margin-right: 300px;
 .precio-ranking{
   margin-left: 100px;
   margin-right: 20px;
-
-
 }
+
+/* BOTON DE SIGN UP*/
+.boton-signup{
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 0px 0;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+
+/* Perfil */
+
+
+.input-perfil[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+.container-perfil {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 60px;
+  margin-top: 50px;
+  background: white;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.col-7 {
+  float: left;
+  width: 7%;
+  margin-top: 6px;
+}
+.col-93 {
+  float: left;
+  width: 93%;
+  margin-top: 6px;
+}
+.row2{
+    width: 50%;
+    margin:5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.megarow{
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.boton-update{
+  width: 150px;
+  background: mediumorchid;
+  border: none;
+  padding: 8px;
+  color: white;
+  margin: 0px 0;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.boton-cancel{
+  width: 60px;
+  background: white;
+  border: 1px solid black;
+  padding: 4px;
+  color: black;
+  margin: 40px 40px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+

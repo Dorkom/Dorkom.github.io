@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import StyledDiv from './styles';
+import Desc from './Desc';
+import texto from './texto';
 
 
 const Guides = () => {
@@ -15,22 +17,19 @@ const Guides = () => {
                             <Container>
                                 <Container>
                                     <StyledDiv>
-                                        <h3>Build Redux Quick Start Guide</h3>
+                                        <Desc {...texto[0]}/>
                                     </StyledDiv>
                                     <StyledDiv>
-                                    <h3>System Overview</h3>
+                                        <Desc {...texto[1]}/>
                                     </StyledDiv>
                                     <StyledDiv>
-                                    <h3>Troubleshooting - Display</h3>
+                                        <Desc {...texto[2]}/>
                                     </StyledDiv>
                                     <StyledDiv>
-                                    <h3>Reseating Guide - Memory</h3>
+                                        <Desc {...texto[3]}/>
                                     </StyledDiv>
                                     <StyledDiv>
-                                    <h3>Reseating Guide - Graphics Card</h3>
-                                    </StyledDiv>
-                                    <StyledDiv>
-                                    <h3>Realignment Guide - Rear I/O</h3>
+                                        <Desc {...texto[4]}/>
                                     </StyledDiv>
                                 </Container>
                             </Container>

@@ -73,7 +73,7 @@ return (
                         className="me-2"
                         aria-label="Search"
                     /> */}
-                    <Button variant="outline-sucess" href="pefil"><img src="./img/user.png" height="30px"/></Button>
+                    <Button variant="outline-sucess" href="perfil"><img src="./img/user.png" height="30px"/></Button>
                     <Button variant="outline-sucess" href="checkout"><img src="./img/shopping-cart.png" height="30px"/></Button>
                     {/* <Button variant="primary"><img src="./img/trash-can.png" height="60px"/></Button>{' '} */}
                 </Form>

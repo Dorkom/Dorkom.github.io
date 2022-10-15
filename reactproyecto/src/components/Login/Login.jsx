@@ -29,7 +29,7 @@ return (
             <p className='donthave'>Dont have an account?</p>
 
             {/* <input  href='checkout' className='botons' type='submit' value='SIGN UP'/> */}
-            <Button variant="outline-sucess" href="crear">SIGN UP</Button>
+            <Button className='boton-signup' variant="outline-sucess" href="crear">SIGN UP</Button>
         </section>
 
     </div>
