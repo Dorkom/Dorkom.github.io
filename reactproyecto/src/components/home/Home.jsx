@@ -38,7 +38,7 @@ return (
             </Col>
         </Row>
         <Row xs="auto">
-            <Button variant="primary">Build for begginers</Button>{' '}
+            <Button variant="primary" href='typeuse'>Build for begginers</Button>{' '}
             <Button variant="secondary">Advanced building</Button>{' '}
         </Row>
         {/* <Row>

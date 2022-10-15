@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-register{
+  width: 580px;
+  background: #24303c;
+  padding: 50px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+}
+
+.form-register h4{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 250px;
+}
+
+.controls {
+  width: 100%;
+  background: 24303c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.form-register p{
+  height: 40px;
+  text-align:center;
+  font-size: 18px;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons{
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 0px 0;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+
+.donthave{
+margin-right: 300px;
+}
+
+.forge{
+  margin-right: 300px;
+
+}
+
+.login-title{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 250px;}
+
+.login-details{
+  margin-right: 100px;
+}
+
+
+.todo{
+  display: flex;
+
+  background: white;
+  border-radius: 4px;
+  margin-top: 10px;
+
+}
+.title-ranking{
+  margin-right: 200px;
+  margin-bottom: 20px;
+}
+
+.seccion-ranking{
+  display: flex;
+  background: white;
+  margin-top: 10px;
+  text-align: right;
+
+}
+
+.img-ranking{
+  height: 50px; 
+  margin-left: 20px;
+  border-radius: 4px;
+
+
+
+}
+
+.parrafo1{
+  color: black;
+  font-family: Arial;
+  margin-left: 100px;
+  margin-top: 10px;
+  text-align: left;
+
+}
+.parrafo2{
+  color: black;
+}
+
+.precio-ranking{
+  margin-left: 100px;
+  margin-right: 20px;
+
+
+}
