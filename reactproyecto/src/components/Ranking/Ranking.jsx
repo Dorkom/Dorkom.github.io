@@ -4,60 +4,56 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
-import React from 'react'
 
 const Ranking = () => {
 
 return (
     <div>
-        <h5 className='title-ranking'>Ranking best sellers periferics</h5>
-        <div className='todo'>
-        <div className='seccion-ranking'>
-        <img className='img-ranking' src="audifonos.jpg"/>
-        </div>
-        <div className='seccion-ranking'>
-        <p className='parrafo1'>Headset</p> 
-        </div>
-        <div className='precio-ranking'>
-        <p className='parrafo2'>$25</p>
-        </div>
-        </div>
 
-        <div className='todo'>
-        <div className='seccion-ranking'>
-        <img className='img-ranking' src="teclado.jpg"/>
-        </div>
-        <div className='seccion-ranking'>
-        <p className='parrafo1'>Mouse and Keyboards</p> 
-        </div>
-        <div className='precio-ranking'>
-        <p className='parrafo2'>$25</p>
-        </div>
-        </div>
+<Container  style={{background:"white"}}>
+        <Row  xs="auto">
+            <Col>
+            <h3>
+                Ranking best sellers periferics
+            </h3>
+            </Col>
+        </Row>
+
+        <Row>
+            <Col>
+                <img src="audifonos.jpg" height="100px"/>
+            </Col>
+            <Col>HeadSet</Col>
+            <Col>$25</Col>
+           
+        </Row>
+        <Row>
+            <Col>
+                <img src="teclado.jpg" height="100px"/>
+            </Col>
+            <Col>Mouse and Keyboards</Col>
+            <Col>$39</Col>
+            
+        </Row>
+        <Row>
+            <Col>
+                <img src="mousepad.jpg" height="100px"/>
+            </Col>
+            <Col>Standar mouse pad</Col>
+            <Col>$19</Col>
+            
+        </Row>
+        <Row>
+            <Col>
+                <img src="mousepad2.jpg" height="100px"/>
+            </Col>
+            <Col>XL mouse pad</Col>
+            <Col>$29</Col>
+            
+        </Row>
         
-        <div className='todo'>
-        <div className='seccion-ranking'>
-        <img className='img-ranking' src="mousepad.jpg"/>
-        </div>
-        <div className='seccion-ranking'>
-        <p className='parrafo1'>Standar Mouse Pad</p> 
-        </div>
-        <div className='precio-ranking'>
-        <p className='parrafo2'>$25</p>
-        </div>
-        </div>
+    </Container>
 
-        <div className='todo'>
-        <div className='seccion-ranking'>
-        <img className='img-ranking' src="mousepad2.jpg"/>
-        </div>
-        <div className='seccion-ranking'>
-        <p className='parrafo1'>XL Mouse Pad</p> 
-        </div>
-        <div className='precio-ranking'>
-        <p className='parrafo2'>$25</p>
-        </div>
-        </div>
 
     </div>
 )

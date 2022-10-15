@@ -4,8 +4,23 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
+import CardReviews from './CardReviews';
 
 const Reviews = () => {
+
+const data = [{
+    nombre: "Jhon Doe",
+    resena: "Great service."
+},{
+    nombre: "Carl Johnson",
+    resena: "Pc well builded and nice case quality."
+},{
+    nombre: "Jhon Doe",
+    resena: "Great service."
+},{
+    nombre: "Carl Johnson",
+    resena: "Pc well builded and nice case quality."
+}]
 
 return (
     <Container>
@@ -25,6 +40,24 @@ return (
             <Col><img src="./img/star.png" height="30px"/></Col>
         </Row>
         <Row>
+            <CardReviews {...data[0]}/>
+            <CardReviews nombre={data[1].nombre} resena={data[1].resena}/>
+            <CardReviews {...data[2]}/>
+            <CardReviews {...data[3]}/>
+        </Row>
+        {/* <Row>
+            <Card class="border-top">
+                <Card.Title>Jhon Doe</Card.Title>
+                <Card.Text>Great service.</Card.Text>
+            </Card>
+        </Row>
+        <Row>
+            <Card class="border-top">
+                <Card.Title>Carl Johnson</Card.Title>
+                <Card.Text>Pc well builded and nice case quality.</Card.Text>
+            </Card>
+        </Row>
+        <Row>
             <Card class="border-top">
                 <Card.Title>Juan Lopez</Card.Title>
                 <Card.Text>I completely recomend this service.</Card.Text>
@@ -41,25 +74,7 @@ return (
                 <Card.Title>Carl Johnson</Card.Title>
                 <Card.Text>Pc well builded and nice case quality.</Card.Text>
             </Card>
-        </Row>
-        <Row>
-            <Card class="border-top">
-                <Card.Title>Juan Lopez</Card.Title>
-                <Card.Text>I completely recomend this service.</Card.Text>
-            </Card>
-        </Row>
-        <Row>
-            <Card class="border-top">
-                <Card.Title>Jhon Doe</Card.Title>
-                <Card.Text>Great service.</Card.Text>
-            </Card>
-        </Row>
-        <Row>
-            <Card class="border-top">
-                <Card.Title>Carl Johnson</Card.Title>
-                <Card.Text>Pc well builded and nice case quality.</Card.Text>
-            </Card>
-        </Row>
+        </Row> */}
     </Container>
 )
 }
