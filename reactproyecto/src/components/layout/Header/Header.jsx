@@ -53,6 +53,9 @@ return (
                 <Nav.Item>
                     <Nav.Link href="ranking">Ranking</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="vendedores">Vendedores</Nav.Link>
+                </Nav.Item>
                 <Typeahead
                     id="basic-example"
                     onChange={setSelected}

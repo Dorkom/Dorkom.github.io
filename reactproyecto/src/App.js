@@ -1,4 +1,4 @@
-import { HomePage, ContactPage, Error404Page, CheckoutPage, ReviewsPage, LoginPage, CrearPage, RankingPage, TypeUsePage, SupportPage, AboutPage, GuidesPage, QuestionsPage } from './components/pages'
+import { HomePage, ContactPage, Error404Page, CheckoutPage, ReviewsPage, LoginPage, CrearPage, RankingPage, TypeUsePage, SupportPage, AboutPage, GuidesPage, QuestionsPage, VendedoresPage } from './components/pages'
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -20,6 +20,7 @@ function App() {
           <Route path="about" element={<AboutPage />}/>
           <Route path="guides" element={<GuidesPage />}/>
           <Route path="questions" element={<QuestionsPage />}/>
+          <Route path="vendedores" element={<VendedoresPage />}/>
         </Routes>
       </BrowserRouter>
     </>
